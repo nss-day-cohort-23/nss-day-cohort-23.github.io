@@ -8,7 +8,7 @@ In the root:
 > npm init -y
 ```
 
-`-y` say yes to every question `npm init` would otherwise ask you.
+`-y` says yes to every question `npm init` would otherwise ask you.
 
 ### Install necessary `npm` modules
 
