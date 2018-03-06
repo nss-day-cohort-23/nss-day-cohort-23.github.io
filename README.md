@@ -2,10 +2,10 @@
 
 An empty Grunt-running setup including:
 
-![](https://img.shields.io/badge/updated-jan_24th_2018-green.svg)
+![](https://img.shields.io/badge/updated-mar_6th_2018-green.svg)
 ![](https://img.shields.io/badge/handlebars-v4.0.11-orange.svg)
 ![](https://img.shields.io/badge/browserify-v5.2.0-ff69b4.svg)
-![](https://img.shields.io/badge/grunt-v1.0.1-yellow.svg)
+![](https://img.shields.io/badge/grunt-v1.0.2-yellow.svg)
 
 # Using this repo
 
@@ -13,8 +13,8 @@ An empty Grunt-running setup including:
 
 In the root:
 
-```shell
-> npm init -y
+```bash
+npm init -y
 ```
 
 `-y` says yes to every question `npm init` would otherwise ask you.
@@ -23,8 +23,14 @@ In the root:
 
 These are listed as dependencies in `package.json` already.
 
-```shell
-> npm install
+```bash
+npm install
+```
+
+### Run server locally
+
+```bash
+hs -o
 ```
 
 ### File structure
