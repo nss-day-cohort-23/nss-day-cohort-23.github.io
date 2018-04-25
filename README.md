@@ -1,54 +1,22 @@
-# Blank Grunt project
+# Cohort 23 Class Website
 
-An empty Grunt-running setup including:
-
-![](https://img.shields.io/badge/updated-mar_6th_2018-green.svg)
 ![](https://img.shields.io/badge/handlebars-v4.0.11-orange.svg)
-![](https://img.shields.io/badge/browserify-v5.2.0-ff69b4.svg)
+![](https://img.shields.io/badge/browserify-v5.3.0-ff69b4.svg)
 ![](https://img.shields.io/badge/grunt-v1.0.2-yellow.svg)
+![](https://img.shields.io/badge/data-static_json-lightgrey.svg)
+![](https://img.shields.io/badge/css_framework-bootstrap-5F2C7C.svg)
 
-# Using this repo
-
-### Initialize an `npm` project for use with Grunt
-
-In the root:
-
+## Run locally
 ```bash
-npm init -y
-```
-
-`-y` says yes to every question `npm init` would otherwise ask you.
-
-### Install necessary `npm` modules
-
-These are listed as dependencies in `package.json` already.
-
-```bash
+git clone git@github.com:nss-day-cohort-23/nss-day-cohort-23.github.io.git
+cd nss-day-cohort-23.github.io
 npm install
-```
-
-### Run server locally
-
-```bash
+grunt
 hs -o
 ```
 
-### File structure
+### Is your information out of date or incorrect?
+Create an issue with the `info-update` template.
 
-```
-root
- |--assets
- |   |--css
- |   |--js
- |   |--sass
- |   `--templates
- |       `--partials
- |
- |--dist
- |   `--bundle.js
- |
- |--.gitignore
- |--Gruntfile.js
- |--package.json
- `--index.html
-```
+### Who made this?
+[Kenzie Bottoms](https://github.com/kenziebottoms/) built this website based on an idea [Trey Mosley](https://github.com/iiimosley) and [Joe Chesney](https://github.com/joechesney) came up with.

@@ -1,7 +1,7 @@
 {
   "name": "name",
   "version": "1.0.0",
-  "description": "",
+  "description": "![](https://img.shields.io/badge/handlebars-v4.0.11-orange.svg) ![](https://img.shields.io/badge/browserify-v5.3.0-ff69b4.svg) ![](https://img.shields.io/badge/grunt-v1.0.2-yellow.svg) ![](https://img.shields.io/badge/data-static_json-lightgrey.svg) ![](https://img.shields.io/badge/css_framework-bootstrap-5F2C7C.svg)",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,14 @@
     "hbsfy": "^2.8.1",
     "http-server": "^0.11.1",
     "matchdep": "^2.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nss-day-cohort-23/nss-day-cohort-23.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nss-day-cohort-23/nss-day-cohort-23.github.io/issues"
+  },
+  "homepage": "https://github.com/nss-day-cohort-23/nss-day-cohort-23.github.io#readme"
 }
