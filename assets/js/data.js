@@ -103,13 +103,13 @@ const students = [
   {
     "name": "Brandon Green",
     "img": "assets/img/green",
-    "bio": "",
-    "github": "",
-    "linkedin": "",
+    "bio": "Likes: backcountry camping, hockey, IPAs, disc golf.  Dislikes: pimento cheese, 15th century feudal Japan.",
+    "github": "https://github.com/BrandonAllenGreen",
+    "linkedin": "https://www.linkedin.com/in/brandonallengreen/",
     "site": "",
     "cap1": "",
     "cap2": "",
-    "superlative": ""
+    "superlative": "Most Likely to Browse Netflix for 30 Minutes and Still End Up Watching Reruns of The Office"
   },
   {
     "name": "David Hazlett",

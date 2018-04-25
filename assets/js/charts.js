@@ -6,7 +6,7 @@ let editorsChart = new Chart(editorsCtx, {
     data: {
         labels: ['VS Code', 'Atom', 'Webstorm'],
         datasets: [{
-            data: [22, 1, 1],
+            data: [23, 1, 1],
             backgroundColor: [
                 '#2A2A3D',
                 '#E6E3EA',
@@ -26,7 +26,7 @@ let osChart = new Chart(osCtx, {
     data: {
         labels: ['Windows', 'Linux', 'Mac'],
         datasets: [{
-            data: [4, 2, 18],
+            data: [5, 2, 18],
             backgroundColor: [
                 '#E6E3EA',
                 '#2A2A3D',
@@ -46,7 +46,7 @@ let animalChart = new Chart(animalCtx, {
     data: {
         labels: ['Cats', 'Dogs', 'Reptiles', 'Birds', 'All of them'],
         datasets: [{
-            data: [3, 17, 1, 1, 2],
+            data: [3, 18, 1, 1, 2],
             backgroundColor: [
                 '#6b5f57',
                 '#A68D7B',
@@ -68,7 +68,7 @@ let genderChart = new Chart(genderCtx, {
     data: {
         labels: ['Other', 'Male', 'Female'],
         datasets: [{
-            data: [1, 17, 6],
+            data: [1, 18, 6],
             backgroundColor: [
                 '#E6E3EA',
                 '#2A2A3D',

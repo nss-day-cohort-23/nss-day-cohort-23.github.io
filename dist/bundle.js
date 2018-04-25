@@ -104,13 +104,13 @@ const students = [
   {
     "name": "Brandon Green",
     "img": "assets/img/green",
-    "bio": "",
-    "github": "",
-    "linkedin": "",
+    "bio": "Likes: backcountry camping, hockey, IPAs, disc golf.  Dislikes: pimento cheese, 15th century feudal Japan.",
+    "github": "https://github.com/BrandonAllenGreen",
+    "linkedin": "https://www.linkedin.com/in/brandonallengreen/",
     "site": "",
     "cap1": "",
     "cap2": "",
-    "superlative": ""
+    "superlative": "Most Likely to Browse Netflix for 30 Minutes and Still End Up Watching Reruns of The Office"
   },
   {
     "name": "David Hazlett",
@@ -385,7 +385,7 @@ $('body').append(techTemplate({ techStack }));
 // hbsfy compiled Handlebars template
 var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "<div id='charts' class='row'>\n  <div class='col-12'>\n    <h1>Statistics</h1>\n  </div>\n  <div class='percentage col col-sm-4'>\n    <div class='percent'>29%</div>\n    Native Tennesseans\n  </div>\n  <div class='percentage col col-sm-4'>\n    <div class='percent'>50%</div>\n    Professional Musicians\n  </div>\n  <div class='percentage col col-sm-4'>\n    <div class='percent'>63%</div>\n    Take 5 Fans\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Text Editors</h4>\n    <canvas id='editors' width='400' height='400'></canvas>\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Operating Systems</h4>\n    <canvas id='os' width='400' height='400'></canvas>\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Favorite Animals</h4>\n    <canvas id='animal' width='400' height='400'></canvas>\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Gender</h4>\n    <canvas id='gender' width='400' height='400'></canvas>\n  </div>\n</div>";
+    return "<div id='charts' class='row'>\n  <div class='col-12'>\n    <h1>Statistics</h1>\n  </div>\n  <div class='percentage col col-sm-4'>\n    <div class='percent'>32%</div>\n    Native Tennesseans\n  </div>\n  <div class='percentage col col-sm-4'>\n    <div class='percent'>48%</div>\n    Professional Musicians\n  </div>\n  <div class='percentage col col-sm-4'>\n    <div class='percent'>60%</div>\n    Take 5 Fans\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Text Editors</h4>\n    <canvas id='editors' width='400' height='400'></canvas>\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Operating Systems</h4>\n    <canvas id='os' width='400' height='400'></canvas>\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Favorite Animals</h4>\n    <canvas id='animal' width='400' height='400'></canvas>\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Gender</h4>\n    <canvas id='gender' width='400' height='400'></canvas>\n  </div>\n</div>";
 },"useData":true});
 
 },{"hbsfy/runtime":25}],4:[function(require,module,exports){
