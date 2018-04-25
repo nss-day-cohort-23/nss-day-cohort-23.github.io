@@ -85,7 +85,7 @@ const students = [
     "bio": "I have an insatiable desire to learn and am constantly striving to improve.",
     "github": "https://github.com/EduardoDuQuesne",
     "linkedin": "https://www.linkedin.com/in/eduardoduquesne/",
-    "site": "",
+    "site": "https://www.eduardoduquesne.com",
     "cap1": "http://terrible-techno.firebaseapp.com/",
     "cap2": "",
     "superlative": "Most Likely to Give a Great High Five"
@@ -239,7 +239,7 @@ const students = [
     "bio": "I like lamp.",
     "github": "https://github.com/sladeutley",
     "linkedin": "https://www.linkedin.com/in/slade-utley-869a5815a/",
-    "site": "",
+    "site": "http://sladeutley.com",
     "cap1": "https://balance-a7ec9.firebaseapp.com/",
     "cap2": "",
     "superlative": "Most Likely to Be at Baja Burrito"
