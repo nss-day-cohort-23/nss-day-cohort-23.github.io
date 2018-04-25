@@ -16,7 +16,7 @@ hs -o
 ```
 
 ### Is your information out of date or incorrect?
-Create an issue with the `info-update` template.
+[Create an issue with the `info-update` template.](https://github.com/nss-day-cohort-23/nss-day-cohort-23.github.io/issues/new?title=Change%20my%20info&template=info-update.md)
 
 ### Who made this?
 [Kenzie Bottoms](https://github.com/kenziebottoms/) built this website based on an idea [Trey Mosley](https://github.com/iiimosley) and [Joe Chesney](https://github.com/joechesney) came up with.
