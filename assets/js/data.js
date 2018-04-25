@@ -136,7 +136,7 @@ const students = [
   {
     "name": "David Lars Ketch",
     "img": "assets/img/ketch",
-    "bio": "Former: academic philosophy, current: software developer. Fintech, legal tech.",
+    "bio": "Former: academic philosophy, current: software developer. DevOps, fintech, legal tech, open source.",
     "github": "github.com/davidlarsketch",
     "linkedin": "linkedin.com/in/davidlarsketch",
     "site": "https://davidlarsketch.github.io/",
