@@ -159,6 +159,9 @@ blockquote {
   }
   .imgs {
     position: relative;
+    img {
+      cursor: pointer;
+    }
   }
   img {
     border-radius: 50%;
@@ -268,6 +271,7 @@ blockquote {
       color: inherit;
       text-align: center;
     }
+    transition: .1s ease-in;
     filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
     text-align: center;
     &:hover {
