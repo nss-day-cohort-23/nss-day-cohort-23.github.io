@@ -1,0 +1,64 @@
+{{#each students}}
+  <div class='student'>
+    <div class='imgs' data-toggle='modal' data-target='#{{slug}}'>
+        <img src='{{img}}1.jpg'>
+        <img src='{{img}}2.jpg'>
+    </div>
+    <h4>{{name}}</h4>
+    <div class='modal fade' tabindex='-1' role='dialog' id="{{slug}}">
+      <div class='modal-dialog'>
+        <div class='modal-content'>
+          <div class='modal-body'>
+            <div class='row'>
+              <div class='col col-6 col-lg-4'>
+                <img src='{{img}}2.jpg'>
+                <h4>{{name}}</h4>
+              </div>
+              <div class='col col-6 col-lg-8'>
+                {{#if superlative}}
+                  <blockquote>{{superlative}}</blockquote>
+                {{/if}}
+                <p>{{bio}}</p>
+                <div class='bottom-line'>
+                  {{#if site}}
+                    <a href='{{site}}' target='_blank'>
+                      <i class='material-icons'>link</i>
+                    </a>
+                  {{/if}}
+                  {{#if cap1}}
+                    <a href='{{cap1}}' target='_blank'>
+                      <i class='material-icons'>extension</i>
+                    </a>
+                  {{/if}}
+                  {{#if cap2}}
+                    <a href='{{cap2}}' target='_blank'>
+                      <i class='material-icons'>extension</i>
+                    </a>
+                  {{/if}}
+                  {{#if github}}
+                    <a href='{{github}}' target='_blank'>
+                      <img src='assets/img/github.png'>
+                    </a>
+                  {{/if}}
+                  {{#if linkedin}}
+                    <a href='{{linkedin}}' target='_blank'>
+                      <img src='assets/img/linkedin.png'>
+                    </a>
+                  {{/if}}
+                  {{#if site}}
+                    <a href='{{site}}' target='_blank'>
+                      <i class='material-icons'>link</i>
+                    </a>
+                  {{/if}}
+                  <button class='close' type='button' data-dismiss='modal' aria-label='Close'>
+                    <span aria-hidden='true'>x</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{/each}}
