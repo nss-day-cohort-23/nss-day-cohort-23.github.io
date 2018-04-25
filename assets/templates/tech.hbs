@@ -1,0 +1,13 @@
+<div id='tech'>
+  <h1>Technologies</h1>
+  {{#each techStack}}
+    <div class='tech'>
+      <a href='{{link}}' target='_blank'>
+        <div class='img'>
+          <img src='{{img}}' alt='{{name}}'>
+        </div>
+        <h4>{{name}}</h4>
+      </a>
+    </div>
+  {{/each}}
+</div>

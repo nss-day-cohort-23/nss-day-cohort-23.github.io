@@ -150,8 +150,8 @@ const students = [
     "bio": "AI, animation, music—hopefully at the same time",
     "github": "https://github.com/ben-marcantel",
     "linkedin": "https://www.linkedin.com/in/ben-marcantel-7552a614/",
-    "site": "",
-    "cap1": "",
+    "site": "https://ben-marcantel.github.io/",
+    "cap1": "https://frontendcapstone-fe0b1.firebaseapp.com/",
     "cap2": "",
     "superlative": "Most Likely to Make a Singing Digital Plant"
   },
@@ -282,82 +282,82 @@ const techStack = [
   {
     "name": "AngularJS",
     "link": "https://angularjs.org/",
-    "img": "public/img/angularjs.png"
+    "img": "assets/img/angularjs.png"
   },
   {
     "name": "Bootstrap",
     "link": "https://getbootstrap.com/",
-    "img": "public/img/bootstrap.png"
+    "img": "assets/img/bootstrap.png"
   },
   {
     "name": "Firebase",
     "link": "https://firebase.google.com/",
-    "img": "public/img/firebase.png"
+    "img": "assets/img/firebase.png"
   },
   {
     "name": "Git",
     "link": "https://git-scm.com/",
-    "img": "public/img/git.png"
+    "img": "assets/img/git.png"
   },
   {
     "name": "Grunt",
     "link": "https://gruntjs.com/",
-    "img": "public/img/grunt.png"
+    "img": "assets/img/grunt.png"
   },
   {
     "name": "Materialize",
     "link": "http://materializecss.com/",
-    "img": "public/img/materialize.png"
+    "img": "assets/img/materialize.png"
   },
   {
     "name": "Mocha",
     "link": "https://mochajs.org/",
-    "img": "public/img/mocha.svg"
+    "img": "assets/img/mocha.svg"
   },
   {
     "name": "Node.js",
     "link": "https://nodejs.org/en/",
-    "img": "public/img/node.png"
+    "img": "assets/img/node.png"
   },
   {
     "name": "Node Package Manager",
     "link": "https://www.npmjs.com/",
-    "img": "public/img/npm.png"
+    "img": "assets/img/npm.png"
   },
   {
     "name": "PostgreSQL",
     "link": "https://www.postgresql.org/",
-    "img": "public/img/postgresql.png"
+    "img": "assets/img/postgresql.png"
   },
   {
     "name": "Pug",
     "link": "https://pugjs.org/api/getting-started.html",
-    "img": "public/img/pug.png"
+    "img": "assets/img/pug.png"
   },
   {
     "name": "Sass",
     "link": "https://sass-lang.com/",
-    "img": "public/img/sass.svg"
+    "img": "assets/img/sass.svg"
   },
   {
     "name": "Sequelize",
     "link": "http://docs.sequelizejs.com/",
-    "img": "public/img/sequelize.png"
+    "img": "assets/img/sequelize.png"
   },
   {
     "name": "Slack",
     "link": "https://slack.com/",
-    "img": "public/img/slack.png"
+    "img": "assets/img/slack.png"
   },
   {
     "name": "Trello",
     "link": "https://trello.com/",
-    "img": "public/img/trello.png"
+    "img": "assets/img/trello.png"
   },
   {
     "name": "VS Code",
     "link": "https://code.visualstudio.com/",
-    "img": "public/img/vscode.png"
+    "img": "assets/img/vscode.png"
   }
 ];
 

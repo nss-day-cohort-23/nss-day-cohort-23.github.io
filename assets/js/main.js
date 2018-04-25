@@ -7,5 +7,10 @@ students = students.map(s => {
   s.slug = s.name.split(" ").reverse()[0];
   return s;
 });
+$('body').append(classTemplate({ students }));
 
-$('body').append(classTemplate({ students, techStack }));
+const chartsTemplate = require('../templates/charts.hbs');
+$('body').append(chartsTemplate());
+
+const techTemplate = require('../templates/tech.hbs');
+$('body').append(techTemplate({ techStack }));
