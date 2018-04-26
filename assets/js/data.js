@@ -15,7 +15,7 @@ const students = [
   {
     "name": "Kenzie Bottoms",
     "img": "assets/img/bottoms",
-    "bio": "(Not so) secretly competetive artist and feminist who enjoys puzzles",
+    "bio": "(Not so) secretly competitive artist and feminist who enjoys puzzles",
     "github": "https://github.com/kenziebottoms",
     "linkedin": "https://www.linkedin.com/in/kenzie-bottoms/",
     "site": "http://kenzie.ink",
