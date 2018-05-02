@@ -33,7 +33,7 @@ const students = [
     "site": "",
     "cap1": "",
     "cap2": "",
-    "superlative": "Most Kikely to Spend Hundreds of Dollars on a Stormtrooper Costume"
+    "superlative": "Most Likely to Spend Hundreds of Dollars on a Stormtrooper Costume"
   },
   {
     "name": "Courtney Brothers",
