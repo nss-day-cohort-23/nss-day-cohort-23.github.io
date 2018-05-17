@@ -381,14 +381,16 @@ $('body').append(chartsTemplate());
 
 const techTemplate = require('../templates/tech.hbs');
 $('body').append(techTemplate({ techStack }));
-},{"../templates/charts.hbs":3,"../templates/class.hbs":4,"../templates/tech.hbs":5,"./data":1}],3:[function(require,module,exports){
+
+$('body').append(require('../templates/footer.hbs'));
+},{"../templates/charts.hbs":3,"../templates/class.hbs":4,"../templates/footer.hbs":5,"../templates/tech.hbs":6,"./data":1}],3:[function(require,module,exports){
 // hbsfy compiled Handlebars template
 var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<div id='charts' class='row'>\n  <div class='col-12'>\n    <h1>Statistics</h1>\n  </div>\n  <div class='percentage col col-sm-4'>\n    <div class='percent'>32%</div>\n    Native Tennesseans\n  </div>\n  <div class='percentage col col-sm-4'>\n    <div class='percent'>48%</div>\n    Professional Musicians\n  </div>\n  <div class='percentage col col-sm-4'>\n    <div class='percent'>60%</div>\n    Take 5 Fans\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Text Editors</h4>\n    <canvas id='editors' width='400' height='400'></canvas>\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Operating Systems</h4>\n    <canvas id='os' width='400' height='400'></canvas>\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Favorite Animals</h4>\n    <canvas id='animal' width='400' height='400'></canvas>\n  </div>\n  <div class='chart col col-sm-6 col-lg-3'>\n    <h4>Gender</h4>\n    <canvas id='gender' width='400' height='400'></canvas>\n  </div>\n</div>";
 },"useData":true});
 
-},{"hbsfy/runtime":25}],4:[function(require,module,exports){
+},{"hbsfy/runtime":26}],4:[function(require,module,exports){
 // hbsfy compiled Handlebars template
 var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
@@ -461,7 +463,14 @@ module.exports = HandlebarsCompiler.template({"1":function(container,depth0,help
   return ((stack1 = helpers.each.call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.students : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
 },"useData":true});
 
-},{"hbsfy/runtime":25}],5:[function(require,module,exports){
+},{"hbsfy/runtime":26}],5:[function(require,module,exports){
+// hbsfy compiled Handlebars template
+var HandlebarsCompiler = require('hbsfy/runtime');
+module.exports = HandlebarsCompiler.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    return "<div id='footer'>\n  &copy; 2018 NSS Cohort 23 | <a href='https://github.com/nss-day-cohort-23/nss-day-cohort-23.github.io' target='blank'>Source on GitHub</a>\n</div>";
+},"useData":true});
+
+},{"hbsfy/runtime":26}],6:[function(require,module,exports){
 // hbsfy compiled Handlebars template
 var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
@@ -484,7 +493,7 @@ module.exports = HandlebarsCompiler.template({"1":function(container,depth0,help
     + "</div>";
 },"useData":true});
 
-},{"hbsfy/runtime":25}],6:[function(require,module,exports){
+},{"hbsfy/runtime":26}],7:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -552,7 +561,7 @@ exports['default'] = inst;
 module.exports = exports['default'];
 
 
-},{"./handlebars/base":7,"./handlebars/exception":10,"./handlebars/no-conflict":20,"./handlebars/runtime":21,"./handlebars/safe-string":22,"./handlebars/utils":23}],7:[function(require,module,exports){
+},{"./handlebars/base":8,"./handlebars/exception":11,"./handlebars/no-conflict":21,"./handlebars/runtime":22,"./handlebars/safe-string":23,"./handlebars/utils":24}],8:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -658,7 +667,7 @@ exports.createFrame = _utils.createFrame;
 exports.logger = _logger2['default'];
 
 
-},{"./decorators":8,"./exception":10,"./helpers":11,"./logger":19,"./utils":23}],8:[function(require,module,exports){
+},{"./decorators":9,"./exception":11,"./helpers":12,"./logger":20,"./utils":24}],9:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -676,7 +685,7 @@ function registerDefaultDecorators(instance) {
 }
 
 
-},{"./decorators/inline":9}],9:[function(require,module,exports){
+},{"./decorators/inline":10}],10:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -707,7 +716,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../utils":23}],10:[function(require,module,exports){
+},{"../utils":24}],11:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -763,7 +772,7 @@ exports['default'] = Exception;
 module.exports = exports['default'];
 
 
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -811,7 +820,7 @@ function registerDefaultHelpers(instance) {
 }
 
 
-},{"./helpers/block-helper-missing":12,"./helpers/each":13,"./helpers/helper-missing":14,"./helpers/if":15,"./helpers/log":16,"./helpers/lookup":17,"./helpers/with":18}],12:[function(require,module,exports){
+},{"./helpers/block-helper-missing":13,"./helpers/each":14,"./helpers/helper-missing":15,"./helpers/if":16,"./helpers/log":17,"./helpers/lookup":18,"./helpers/with":19}],13:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -852,7 +861,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../utils":23}],13:[function(require,module,exports){
+},{"../utils":24}],14:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -948,7 +957,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../exception":10,"../utils":23}],14:[function(require,module,exports){
+},{"../exception":11,"../utils":24}],15:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -975,7 +984,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../exception":10}],15:[function(require,module,exports){
+},{"../exception":11}],16:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1006,7 +1015,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../utils":23}],16:[function(require,module,exports){
+},{"../utils":24}],17:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1034,7 +1043,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1048,7 +1057,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1083,7 +1092,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../utils":23}],19:[function(require,module,exports){
+},{"../utils":24}],20:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1132,7 +1141,7 @@ exports['default'] = logger;
 module.exports = exports['default'];
 
 
-},{"./utils":23}],20:[function(require,module,exports){
+},{"./utils":24}],21:[function(require,module,exports){
 (function (global){
 /* global window */
 'use strict';
@@ -1156,7 +1165,7 @@ module.exports = exports['default'];
 
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1465,7 +1474,7 @@ function executeDecorators(fn, prog, container, depths, data, blockParams) {
 }
 
 
-},{"./base":7,"./exception":10,"./utils":23}],22:[function(require,module,exports){
+},{"./base":8,"./exception":11,"./utils":24}],23:[function(require,module,exports){
 // Build out our basic SafeString type
 'use strict';
 
@@ -1482,7 +1491,7 @@ exports['default'] = SafeString;
 module.exports = exports['default'];
 
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1608,12 +1617,12 @@ function appendContextPath(contextPath, id) {
 }
 
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 // Create a simple path alias to allow browserify to resolve
 // the runtime on a supported path.
 module.exports = require('./dist/cjs/handlebars.runtime')['default'];
 
-},{"./dist/cjs/handlebars.runtime":6}],25:[function(require,module,exports){
+},{"./dist/cjs/handlebars.runtime":7}],26:[function(require,module,exports){
 module.exports = require("handlebars/runtime")["default"];
 
-},{"handlebars/runtime":24}]},{},[2]);
+},{"handlebars/runtime":25}]},{},[2]);

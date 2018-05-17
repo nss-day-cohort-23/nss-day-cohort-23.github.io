@@ -10,7 +10,7 @@ let editorsChart = new Chart(editorsCtx, {
             backgroundColor: [
                 '#2A2A3D',
                 '#E6E3EA',
-                '#6b5f57'
+                '#6d2536'
             ]
         }],
     },
@@ -49,7 +49,7 @@ let animalChart = new Chart(animalCtx, {
             data: [3, 18, 1, 1, 2],
             backgroundColor: [
                 '#6b5f57',
-                '#A68D7B',
+                '#6d2536',
                 '#E6E3EA',
                 '#2A2A3D',
                 '#cec9ad'
@@ -70,9 +70,9 @@ let genderChart = new Chart(genderCtx, {
         datasets: [{
             data: [1, 18, 6],
             backgroundColor: [
-                '#E6E3EA',
+                '#cec9ad',
                 '#2A2A3D',
-                '#A68D7B',
+                '#6d2536',
             ]
         }],
     },

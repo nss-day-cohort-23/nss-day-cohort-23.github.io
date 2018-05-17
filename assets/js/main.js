@@ -14,3 +14,5 @@ $('body').append(chartsTemplate());
 
 const techTemplate = require('../templates/tech.hbs');
 $('body').append(techTemplate({ techStack }));
+
+$('body').append(require('../templates/footer.hbs'));
