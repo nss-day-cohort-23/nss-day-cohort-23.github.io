@@ -170,9 +170,9 @@ const students = [
     "name": "Sarah Morris",
     "img": "assets/img/morris",
     "bio": "Self-proclaimed wine connoisseur (WSET level two student); pursuing my private pilot's license; Apple cult member (kidding...sort of); mindfulness meditator",
-    "github": "www.github.com/sarahmorris926",
-    "linkedin": "www.linkedin.com/in/sarahmorris926",
-    "site": "",
+    "github": "https://github.com/sarahmorris926",
+    "linkedin": "https://www.linkedin.com/in/sarahmorris926",
+    "site": "https://sarahmorris926.github.io/",
     "cap1": "",
     "cap2": "",
     "superlative": "Most Likely to Become a Band Director"
