@@ -206,7 +206,7 @@ const students = [
     "bio": "Current interests: python, machine learning, Freakonomics Radio, Nashville breweries",
     "github": "https://github.com/hunterphillips",
     "linkedin": "https://www.linkedin.com/in/hunter-phillips-9770a612a/",
-    "site": "",
+    "site": "https://hunterphillips.github.io/",
     "cap1": "https://github.com/hunterphillips/countdown/releases",
     "cap2": "",
     "superlative": "Most Likely to Open a Restaurant"
