@@ -21,7 +21,7 @@ const students = [
     "linkedin": "https://www.linkedin.com/in/kenzie-bottoms/",
     "site": "http://kenzie.ink",
     "cap1": "http://kenzie.ink/nss-front-capstone-mixify/",
-    "cap2": "",
+    "cap2": "https://artograph.herokuapp.com/",
     "superlative": "Most Unnecessary Commits"
   },
   {
@@ -65,7 +65,7 @@ const students = [
     "linkedin": "https://www.linkedin.com/in/joe-chesney-216846b2/",
     "site": "",
     "cap1": "https://fec-jammr.firebaseapp.com",
-    "cap2": "",
+    "cap2": "https://github.com/joechesney/Scoop",
     "superlative": "Most Likely to Know How Superlatives Work"
   },
   {
@@ -206,7 +206,7 @@ const students = [
     "bio": "Current interests: python, machine learning, Freakonomics Radio, Nashville breweries",
     "github": "https://github.com/hunterphillips",
     "linkedin": "https://www.linkedin.com/in/hunter-phillips-9770a612a/",
-    "site": "",
+    "site": "https://hunterphillips.github.io/",
     "cap1": "https://github.com/hunterphillips/countdown/releases",
     "cap2": "",
     "superlative": "Most Likely to Open a Restaurant"
