@@ -40,9 +40,9 @@ const students = [
     "bio": "\"If art interprets our dreams, the computer executes them in the guise of programs.\"  - Alan J. Perlis",
     "github": "https://github.com/CourtneyBrothers",
     "linkedin": "https://www.linkedin.com/in/courtney-brothers-93893415a/",
-    "site": "",
+    "site": "https://courtneybrothers.herokuapp.com/",
     "cap1": "",
-    "cap2": "",
+    "cap2": "https://laststraw.herokuapp.com/",
     "superlative": "Most Likely to Have Listened to a Podcast About It"
   },
   {
