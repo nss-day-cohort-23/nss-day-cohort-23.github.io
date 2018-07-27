@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/handlebars-v4.0.11-orange.svg)
 ![](https://img.shields.io/badge/browserify-v5.3.0-ff69b4.svg)
-![](https://img.shields.io/badge/grunt-v1.0.2-yellow.svg)
+![](https://img.shields.io/badge/grunt-v1.0.3-yellow.svg)
 ![](https://img.shields.io/badge/data-static_json-lightgrey.svg)
 ![](https://img.shields.io/badge/css_framework-bootstrap-5F2C7C.svg)
 
